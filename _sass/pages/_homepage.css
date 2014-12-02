@@ -1,0 +1,47 @@
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+header {
+  background-color: #5cd686; }
+  header .nav-bar {
+    padding-top: 5px;
+    margin-left: 15px;
+    margin-top: 0px;
+    height: 130px; }
+    header .nav-bar li {
+      font-size: 20px;
+      display: inline;
+      padding: 5px; }
+      header .nav-bar li .logo {
+        font-size: 20px; }
+
+body .jumbotron {
+  border: solid;
+  height: 490px;
+  /*padding:50px;*/
+  background-image: url("../../images/Brads.JPG"); }
+body .hitcher {
+  width: 180px;
+  background-color: #5cd686;
+  font-size: 15px;
+  margin-top: 150px;
+  border: solid;
+  border-radius: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 40px; }
+body .driver {
+  width: 180px;
+  background-color: #5cd686;
+  font-size: 15px;
+  margin-top: 150px;
+  border: solid;
+  border-radius: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px; }
+
+/*# sourceMappingURL=_homepage.css.map */
