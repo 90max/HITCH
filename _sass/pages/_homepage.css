@@ -1,11 +1,14 @@
 header {
+  position: relative;
   background-color: grey;
   border: dotted; }
   header .nav-bar {
+    padding-top: 25px;
     margin: 25px;
     height: 50px;
     background-color: grey; }
     header .nav-bar li {
+      font-size: 20px;
       display: inline;
       padding: 5px; }
 
@@ -14,6 +17,7 @@ body {
   height: 600px;
   /*background-color:#47D147;*/ }
   body #jumbotron {
+    font-size: 50px;
     background-color: #B2CCCC;
     height: 400px;
     border: solid;
@@ -22,21 +26,31 @@ body {
     /*margin:450px;*/ }
   body #hitcher {
     /*clear:both;*/
+    background-color: green;
     font-size: 15px;
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border: solid;
-    border-radius: 15%;
-    padding: 20px;
+    /*border-radius:50%;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     float: left; }
   body #driver {
     /*clear:both;*/
+    background-color: green;
     font-size: 15px;
     margin-right: 250px;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border: solid;
-    border-radius: 15%;
-    padding: 20px;
+    /*border-radius:50%;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     float: right; }
 
 /*# sourceMappingURL=_homepage.css.map */
