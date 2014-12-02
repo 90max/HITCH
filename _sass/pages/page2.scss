@@ -15,47 +15,178 @@ $hitchGreen: #5cd686;
     src: url(/fonts/WalkwaySemiBold.ttf);
 }
 
+//all pages
 
-.col-md-12.page2 {
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.largepagebreak {
+	height: 7.5em;
+}
+
+
+.col-md-12.pages {
 
 	h1 { 
 		text-align: center;
-		font-family: hitchFontSubtitles;
+		font-family: hitchFontTitles;
 		font-size: 3em;
 		color: #5b5757;
-		margin-top: 2em;
-		margin-bottom: 2.5em;
+		margin-top: 1em;
+		margin-bottom: 1em;
 		}
 	h2 {	
 		font-family: hitchFontSubtitles;
 		color: $hitchGreen;
 		font-size: 2em;
+		padding-top: 0px;
+		padding-bottom: 1em;
        }
-   	li {
-		font-family: hitchFontBody;
-		color: $hitchGreen;
-		font-size: 1.2em;
-		list-style: none;
-		list-style-type: decimal;
-		counter-reset: li-counter;
-		}
+  
 	h3 {
 		font-family: hitchFontSubtitles;
 		color: $hitchGreen;
 	}
+	p {
+		font-family: hitchFontBody;
+		color: $hitchGreen;
+		padding: 1em;
+	}
 
 }
 
+
+//even numbered pages only which have green background
+
+.col-md-12.pages.even {
+	background-color: $hitchGreen;
+	padding-bottom: 5em;
+	h2 {
+		color: white;
+	}
+
+	li {
+		color: white;
+	}
+
+	h3 {
+		color: white;
+	}
+
+	p {
+		color: white;
+	}
+}
+
+
+//page 2
 .passengers {
 	float: left;
 }
-
 
 .drivers {
 	float: right;
 }
 
+
+//page 3
+
+.userdesc {
+	p {
+		padding-top: 2em;
+	}
+
+}
+
+.userpic {
+	float: left;
+	background-color: $hitchGreen;
+	border-radius: 80%;
+	width: 9em;
+	height: 9em;
+}
+
+
+//page 4
+
+.offerpic {
+	float: left;
+	background-color: white;
+	border-radius: 80%;
+	width: 7em;
+	height: 7em;
+	margin: 0.5em;
+}
+
+
+
+//page 7
+
 #page7 {
-		text-align: center;
-		margin-bottom: 2em; 
+	text-align: center;
+	margin-bottom: 2em; 
 }	
+
+
+//footer
+
+.footer-wrapper {
+  height: 14em;
+  background-color: $hitchGreen;
+  padding-top: 1em;
+  border-top: grey 1px solid;
+}
+
+.footer-heading{
+  padding-left: 153px;
+  padding-top: 0px;
+  font-family: hitchFontTitles
+}
+
+//numbered lists
+
+//number list column
+ol.numbers {
+	list-style-type: none;
+    list-style-type: decimal;
+     
+    margin: 0;
+    margin-left: 6em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+
+//the list text itself
+ol.numbers > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+    font-family: hitchFontBody;
+	color: $hitchGreen;
+	font-size: 1.2em;
+	padding: 0.6em;
+	list-style: none;
+}
+
+ol.numbers > li:before {
+    position: absolute;
+    top: 0;
+    left: -1.55em;
+    width: 1.5em;
+    height: 1.5em;
+     
+    font-size: 2.5em;
+    line-height: 1.4;
+    text-align: center;
+    color: #C2EFDE;
+ 
+    border: 3px solid #689379;
+    border-radius: 50%;
+    background-color: #67B68F;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
