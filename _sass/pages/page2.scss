@@ -1,6 +1,48 @@
-h1 {
-	color: green;
-	text-align: center;
+$hitchGreen: #5cd686;
+
+@font-face {
+    font-family: hitchFontTitles;
+    src: url(/fonts/WalkwayBlack.ttf);
+}
+
+@font-face {
+    font-family: hitchFontSubtitles;
+    src: url(/fonts/WalkwayExpandBlack.ttf);
+}
+
+@font-face {
+    font-family: hitchFontBody;
+    src: url(/fonts/WalkwaySemiBold.ttf);
+}
+
+
+.col-md-12.page2 {
+
+	h1 { 
+		text-align: center;
+		font-family: hitchFontSubtitles;
+		font-size: 3em;
+		color: #5b5757;
+		margin-top: 2em;
+		margin-bottom: 2.5em;
+		}
+	h2 {	
+		font-family: hitchFontSubtitles;
+		color: $hitchGreen;
+		font-size: 2em;
+       }
+   	li {
+		font-family: hitchFontBody;
+		color: $hitchGreen;
+		font-size: 1.2em;
+		list-style: none;
+		list-style-type: decimal;
+		counter-reset: li-counter;
+		}
+	h3 {
+		font-family: hitchFontSubtitles;
+		color: $hitchGreen;
+	}
 
 }
 
@@ -8,6 +50,12 @@ h1 {
 	float: left;
 }
 
+
 .drivers {
 	float: right;
 }
+
+#page7 {
+		text-align: center;
+		margin-bottom: 2em; 
+}	
