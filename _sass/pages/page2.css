@@ -7,27 +7,45 @@
 @font-face {
   font-family: hitchFontBody;
   src: url(/fonts/WalkwaySemiBold.ttf); }
-.col-md-12.page2 h1 {
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.largepagebreak {
+  height: 7.5em; }
+
+.col-md-12.pages h1 {
   text-align: center;
-  font-family: hitchFontSubtitles;
+  font-family: hitchFontTitles;
   font-size: 3em;
   color: #5b5757;
-  margin-top: 2em;
-  margin-bottom: 2.5em; }
-.col-md-12.page2 h2 {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+.col-md-12.pages h2 {
   font-family: hitchFontSubtitles;
   color: #5cd686;
-  font-size: 2em; }
-.col-md-12.page2 li {
-  font-family: hitchFontBody;
-  color: #5cd686;
-  font-size: 1.2em;
-  list-style: none;
-  list-style-type: decimal;
-  counter-reset: li-counter; }
-.col-md-12.page2 h3 {
+  font-size: 2em;
+  padding-top: 0px;
+  padding-bottom: 1em; }
+.col-md-12.pages h3 {
   font-family: hitchFontSubtitles;
   color: #5cd686; }
+.col-md-12.pages p {
+  font-family: hitchFontBody;
+  color: #5cd686;
+  padding: 1em; }
+
+.col-md-12.pages.even {
+  background-color: #5cd686;
+  padding-bottom: 5em; }
+  .col-md-12.pages.even h2 {
+    color: white; }
+  .col-md-12.pages.even li {
+    color: white; }
+  .col-md-12.pages.even h3 {
+    color: white; }
+  .col-md-12.pages.even p {
+    color: white; }
 
 .passengers {
   float: left; }
@@ -35,8 +53,72 @@
 .drivers {
   float: right; }
 
+.userdesc p {
+  padding-top: 2em; }
+
+.userpic {
+  float: left;
+  background-color: #5cd686;
+  border-radius: 80%;
+  width: 9em;
+  height: 9em; }
+
+.offerpic {
+  float: left;
+  background-color: white;
+  border-radius: 80%;
+  width: 7em;
+  height: 7em;
+  margin: 0.5em; }
+
 #page7 {
   text-align: center;
   margin-bottom: 2em; }
+
+.footer-wrapper {
+  height: 14em;
+  background-color: #5cd686;
+  padding-top: 1em;
+  border-top: grey 1px solid; }
+
+.footer-heading {
+  padding-left: 153px;
+  padding-top: 0px;
+  font-family: hitchFontTitles; }
+
+ol.numbers {
+  list-style-type: none;
+  list-style-type: decimal;
+  margin: 0;
+  margin-left: 6em;
+  padding: 0;
+  counter-reset: li-counter; }
+
+ol.numbers > li {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 0.5em;
+  min-height: 3em;
+  font-family: hitchFontBody;
+  color: #5cd686;
+  font-size: 1.2em;
+  padding: 0.6em;
+  list-style: none; }
+
+ol.numbers > li:before {
+  position: absolute;
+  top: 0;
+  left: -1.55em;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 2.5em;
+  line-height: 1.4;
+  text-align: center;
+  color: #C2EFDE;
+  border: 3px solid #689379;
+  border-radius: 50%;
+  background-color: #67B68F;
+  content: counter(li-counter);
+  counter-increment: li-counter; }
 
 /*# sourceMappingURL=page2.css.map */
