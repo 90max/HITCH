@@ -1,69 +1,70 @@
+$hitchgreen:#5cd686;
 
+.container-fluid{
+	padding-left:0px;
+	padding-right:0px;
+}
 
 header{
-	position:relative;
-	background-color:grey;
-	border:dotted;
+	
+	background-color:$hitchgreen;
+	
+	
 	.nav-bar {
-		padding-top:25px;
-		margin:25px;
-		height:50px;
-		background-color:grey;
+		padding-top:5px;
+		margin-left:15px;
+		margin-top:0px;
+		height:130px;
+		
 
 			li {
 			font-size:20px;
 			display:inline;
 			padding:5px;
+
+				.logo {
+				font-size:20px;
+
+				}
 			}
 		}
 	}	
 
 body{
-	/*border:dashed;*/
-	height:600px;
-	/*background-color:#47D147;*/
+	
+	
 
-	#jumbotron{
-	font-size:50px;
-	background-color:#B2CCCC;
-	height:400px;
+	.jumbotron{
 	border:solid;
-	padding:50px;
-	clear:both;
-	/*margin:450px;*/
+	height:490px;
+	/*padding:50px;*/
+	background-image:url('../../images/Brads.JPG');
 	}
 
-	#hitcher{
-	/*clear:both;*/
-	background-color:green;
+	.hitcher{
+	width:180px;
+	background-color:$hitchgreen;
 	font-size:15px;
-	margin-left:250px;
-	margin-top:25px;
-	margin-bottom:25px;
+	margin-top:150px;
 	border:solid;
-	/*border-radius:50%;*/
+	border-radius:25%;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-left:40px;
+	}
+
+	.driver{
+	width:180px;
+	background-color:$hitchgreen;
+	font-size:15px;
+	margin-top:150px;
+	border:solid;
+	border-radius:25%;
 	padding-top:20px;
 	padding-bottom:20px;
 	padding-right:40px;
 	padding-left:40px;
-	float:left;
-	}
-
-	#driver{
-	/*clear:both;*/
-	background-color:green;
-	font-size:15px;
-	margin-right:250px;
-	margin-top:25px;
-	margin-bottom:25px;
-	border:solid;
-	/*border-radius:50%;*/
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-right:40px;
-	padding-left:40px;
-	float:right;
-
 	}
 }
 
