@@ -1,5 +1,5 @@
 $hitchGreen: #9BD3AF;
-
+$hitchGrey: #5b5757;
 @font-face {
     font-family: hitchFontTitles;
     src: url(/fonts/WalkwayBlack.ttf);
@@ -33,7 +33,7 @@ $hitchGreen: #9BD3AF;
 		text-align: center;
 		font-family: hitchFontBody;
 		font-size: 3em;
-		color: #5b5757;
+		color: $hitchGrey;
 		margin-top: 1em;
 		margin-bottom: 1em;
 		}
@@ -47,7 +47,9 @@ $hitchGreen: #9BD3AF;
   
 	h3 {
 		font-family: hitchFontBody;
-		color: $hitchGreen;
+		color: $hitchGrey;
+		margin-top: 4em;
+		margin-left: 4em;
 	}
 	p {
 		font-family: hitchFontBody;
@@ -116,12 +118,25 @@ $hitchGreen: #9BD3AF;
 .offerpic {
 	float: left;
 	background-color: white;
-	border-radius: 80%;
-	width: 7em;
+	width: 17em;
 	height: 7em;
-	margin: 0.5em;
+	margin-bottom: 1.5em;
+	margin-left: 7em;
 }
 
+//page 6
+
+.tree {
+	height: 40em;
+	width: 40em;
+	margin-top: -3em;
+	margin-left: 4em;
+}
+
+.col-md-5.carshare {
+	margin-top: 5em;
+	margin-left: 1em;
+}
 
 
 //page 7
@@ -129,22 +144,46 @@ $hitchGreen: #9BD3AF;
 #page7 {
 	text-align: center;
 	margin-bottom: 2em; 
+	width: 21em;
+	margin-left: auto;
+	margin-right: auto;
 }	
 
 
 //footer
 
 .footer-wrapper {
-  height: 14em;
-  background-color: $hitchGreen;
+  height: 7em;
+  background-color: $hitchGrey;
   padding-top: 1em;
   border-top: grey 1px solid;
 }
 
 .footer-heading{
-  padding-left: 153px;
+  padding-left: 1em;
   padding-top: 0px;
-  font-family: hitchFontBody
+  font-family: hitchFontBody;
+  color: white;
+  display: inline;
+}
+
+.footerimg {
+	img {
+		height: 3em;
+		width: 3em; 
+		display: inline;
+	}
+	p { 
+		display: inline;
+		font-family: hitchFontBody;
+		font-size: 1em;
+		color: white;
+	}
+}
+
+.signup {
+	float: right;
+	margin-right: 4em;
 }
 
 //numbered lists
@@ -188,7 +227,50 @@ ol.numbers > li:before {
  
     //border: 3px solid #689379;
     border-radius: 50%;
-    background-color: #82837d;
+    background-color: $hitchGrey;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+//numbered lists for carshare
+
+//number list column
+ol.carshare {
+	list-style-type: none;
+    list-style-type: decimal;
+     
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+
+//the list text itself
+ol.carshare > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+    border-left: 2px solid #CCCCCC;
+    list-style: none;
+     font-family: hitchFontBody;
+	color: $hitchGreen;
+	font-size: 1.2em;
+}
+
+ol.carshare > li:before {
+    position: absolute;
+    top: 0;
+    left: -1em;
+    width: 0.8em;
+     
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #464646;
+ 
     content: counter(li-counter);
     counter-increment: li-counter;
 }

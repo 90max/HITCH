@@ -29,7 +29,9 @@
   padding-bottom: 1em; }
 .col-md-12.pages h3 {
   font-family: hitchFontBody;
-  color: #9BD3AF; }
+  color: #5b5757;
+  margin-top: 4em;
+  margin-left: 4em; }
 .col-md-12.pages p {
   font-family: hitchFontBody;
   color: #9BD3AF;
@@ -68,25 +70,54 @@
 .offerpic {
   float: left;
   background-color: white;
-  border-radius: 80%;
-  width: 7em;
+  width: 17em;
   height: 7em;
-  margin: 0.5em; }
+  margin-bottom: 1.5em;
+  margin-left: 7em; }
+
+.tree {
+  height: 40em;
+  width: 40em;
+  margin-top: -3em;
+  margin-left: 4em; }
+
+.col-md-5.carshare {
+  margin-top: 5em;
+  margin-left: 1em; }
 
 #page7 {
   text-align: center;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  width: 21em;
+  margin-left: auto;
+  margin-right: auto; }
 
 .footer-wrapper {
-  height: 14em;
-  background-color: #9BD3AF;
+  height: 7em;
+  background-color: #5b5757;
   padding-top: 1em;
   border-top: grey 1px solid; }
 
 .footer-heading {
-  padding-left: 153px;
+  padding-left: 1em;
   padding-top: 0px;
-  font-family: hitchFontBody; }
+  font-family: hitchFontBody;
+  color: white;
+  display: inline; }
+
+.footerimg img {
+  height: 3em;
+  width: 3em;
+  display: inline; }
+.footerimg p {
+  display: inline;
+  font-family: hitchFontBody;
+  font-size: 1em;
+  color: white; }
+
+.signup {
+  float: right;
+  margin-right: 4em; }
 
 ol.numbers {
   list-style-type: none;
@@ -117,7 +148,39 @@ ol.numbers > li:before {
   text-align: center;
   color: white;
   border-radius: 50%;
-  background-color: #82837d;
+  background-color: #5b5757;
+  content: counter(li-counter);
+  counter-increment: li-counter; }
+
+ol.carshare {
+  list-style-type: none;
+  list-style-type: decimal;
+  margin: 0;
+  margin-left: 3em;
+  padding: 0;
+  counter-reset: li-counter; }
+
+ol.carshare > li {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 0.5em;
+  min-height: 3em;
+  border-left: 2px solid #CCCCCC;
+  list-style: none;
+  font-family: hitchFontBody;
+  color: #9BD3AF;
+  font-size: 1.2em; }
+
+ol.carshare > li:before {
+  position: absolute;
+  top: 0;
+  left: -1em;
+  width: 0.8em;
+  font-size: 3em;
+  line-height: 1;
+  font-weight: bold;
+  text-align: right;
+  color: #464646;
   content: counter(li-counter);
   counter-increment: li-counter; }
 
