@@ -1,47 +1,74 @@
+@font-face {
+  font-family: hitchFontTitles;
+  src: url(/fonts/WalkwayBlack.ttf); }
+@font-face {
+  font-family: hitchFontSubtitles;
+  src: url(/fonts/WalkwayExpandBlack.ttf); }
+@font-face {
+  font-family: hitchFontBody;
+  src: url(/fonts/WalkwaySemiBold.ttf); }
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px; }
 
 header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
   background-color: #5cd686; }
   header .nav-bar {
     padding-top: 5px;
     margin-left: 15px;
     margin-top: 0px;
-    height: 130px; }
+    height: 100px; }
+    header .nav-bar ul.pull-left.col-md-4 {
+      height: 60px; }
+      header .nav-bar ul.pull-left.col-md-4 li {
+        font-size: 50px; }
     header .nav-bar li {
+      font-family: hitchFontSubtitles;
       font-size: 20px;
       display: inline;
       padding: 5px; }
-      header .nav-bar li .logo {
-        font-size: 20px; }
 
-body .jumbotron {
-  border: solid;
-  height: 490px;
-  /*padding:50px;*/
-  background-image: url("../../images/Brads.JPG"); }
-body .hitcher {
-  width: 180px;
-  background-color: #5cd686;
-  font-size: 15px;
-  margin-top: 150px;
-  border: solid;
-  border-radius: 25%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  padding-left: 40px; }
-body .driver {
-  width: 180px;
-  background-color: #5cd686;
-  font-size: 15px;
-  margin-top: 150px;
-  border: solid;
-  border-radius: 25%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 40px;
-  padding-left: 40px; }
+body {
+  height: 2000px; }
+  body .jumbotron {
+    z-index: 0;
+    top: 100px;
+    bottom: auto;
+    position: absolute;
+    min-height: 100%;
+    background-image: url("../../images/Brads.JPG"); }
+    body .jumbotron h1 {
+      margin-left: 100px;
+      margin-top: 80px;
+      font-family: hitchFontTitles;
+      color: #5cd686; }
+  body .hitcher {
+    width: 180px;
+    background-color: #FFCC00;
+    font-size: 15px;
+    font-family: hitchFontSubtitles;
+    margin-top: 150px;
+    margin-left: 220px;
+    border: dashed;
+    border-radius: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 40px; }
+  body .driver {
+    width: 180px;
+    background-color: #FFCC00;
+    font-size: 15px;
+    font-family: hitchFontSubtitles;
+    margin-top: 150px;
+    border: dashed;
+    border-radius: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px; }
 
 /*# sourceMappingURL=_homepage.css.map */
