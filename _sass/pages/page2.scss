@@ -1,4 +1,4 @@
-$hitchGreen: #5cd686;
+$hitchGreen: #9BD3AF;
 
 @font-face {
     font-family: hitchFontTitles;
@@ -31,14 +31,14 @@ $hitchGreen: #5cd686;
 
 	h1 { 
 		text-align: center;
-		font-family: hitchFontTitles;
+		font-family: hitchFontBody;
 		font-size: 3em;
 		color: #5b5757;
 		margin-top: 1em;
 		margin-bottom: 1em;
 		}
 	h2 {	
-		font-family: hitchFontSubtitles;
+		font-family: hitchFontBody;
 		color: $hitchGreen;
 		font-size: 2em;
 		padding-top: 0px;
@@ -46,7 +46,7 @@ $hitchGreen: #5cd686;
        }
   
 	h3 {
-		font-family: hitchFontSubtitles;
+		font-family: hitchFontBody;
 		color: $hitchGreen;
 	}
 	p {
@@ -84,10 +84,12 @@ $hitchGreen: #5cd686;
 //page 2
 .passengers {
 	float: left;
+	padding-left: 1em;
 }
 
 .drivers {
 	float: right;
+	padding-right: 1em;
 }
 
 
@@ -142,7 +144,7 @@ $hitchGreen: #5cd686;
 .footer-heading{
   padding-left: 153px;
   padding-top: 0px;
-  font-family: hitchFontTitles
+  font-family: hitchFontBody
 }
 
 //numbered lists
@@ -168,7 +170,7 @@ ol.numbers > li{
     font-family: hitchFontBody;
 	color: $hitchGreen;
 	font-size: 1.2em;
-	padding: 0.6em;
+	//padding: 0.6em;
 	list-style: none;
 }
 
@@ -182,11 +184,11 @@ ol.numbers > li:before {
     font-size: 2.5em;
     line-height: 1.4;
     text-align: center;
-    color: #C2EFDE;
+    color: white;
  
-    border: 3px solid #689379;
+    //border: 3px solid #689379;
     border-radius: 50%;
-    background-color: #67B68F;
+    background-color: #82837d;
     content: counter(li-counter);
     counter-increment: li-counter;
 }
