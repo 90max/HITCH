@@ -22,7 +22,8 @@ $hitchgreen:#5cd686;
 
 
 header{
-	z-index: 1;
+	height:42px;
+	z-index: -1;
 	position:fixed;
 	width:100%;
 	background-color:$hitchgreen;
@@ -32,22 +33,24 @@ header{
 		padding-top:5px;
 		margin-left:15px;
 		margin-top:0px;
-		height:100px;
+		height:40px;
 
 		ul.pull-left.col-md-4{
 			height:60px;
 			
 			li {
-				font-size: 50px;
+				font-size: 30px;
 			}
 		}
 
 
 			li {
 			font-family: hitchFontSubtitles;
-			font-size:20px;
+			font-size:10px;
 			display:inline;
 			padding:5px;
+
+
 				}
 			}
 		}	
@@ -58,13 +61,13 @@ body{
 	height:2000px;
 	.jumbotron{
 		z-index: 0;
-		top:100px;
+		top:auto;
 		bottom: auto;
 		position: absolute;
 		min-height:100%;
 		background-image:url('../../images/Brads.JPG');
 			h1{
-				margin-left: 100px;
+				margin-left: 70px;
 				margin-top: 80px;
 				font-family: hitchFontTitles;
 				color: $hitchgreen;
@@ -84,6 +87,7 @@ body{
 	padding-bottom:20px;
 	padding-right:20px;
 	padding-left:40px;
+	box-shadow: 10px 10px 5px black;
 	}
 
 	.driver{
@@ -98,6 +102,7 @@ body{
 	padding-bottom:20px;
 	padding-right:40px;
 	padding-left:40px;
+	box-shadow: 10px 10px 5px black;
 	}
 }
 
