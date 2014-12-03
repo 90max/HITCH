@@ -1,5 +1,20 @@
 $hitchgreen:#5cd686;
 
+@font-face {
+    font-family: hitchFontTitles;
+    src: url(/fonts/WalkwayBlack.ttf);
+}
+
+@font-face {
+    font-family: hitchFontSubtitles;
+    src: url(/fonts/WalkwayExpandBlack.ttf);
+}
+
+@font-face {
+    font-family: hitchFontBody;
+    src: url(/fonts/WalkwaySemiBold.ttf);
+}
+
 .container-fluid{
 	padding-left:0px;
 	padding-right:0px;
@@ -30,23 +45,29 @@ header{
 		}
 	}	
 
-body{
-	
-	
 
+
+body{
 	.jumbotron{
-	border:solid;
 	height:490px;
 	/*padding:50px;*/
 	background-image:url('../../images/Brads.JPG');
+		h1{
+			margin-left: 100px;
+			margin-top: 80px;
+			font-family: hitchFontTitles;
+			color: $hitchgreen;
+		}
 	}
 
 	.hitcher{
 	width:180px;
-	background-color:$hitchgreen;
+	background-color:#FFCC00;
 	font-size:15px;
+	font-family: hitchFontSubtitles;
 	margin-top:150px;
-	border:solid;
+	margin-left: 220px;
+	border:dashed;
 	border-radius:25%;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -56,10 +77,11 @@ body{
 
 	.driver{
 	width:180px;
-	background-color:$hitchgreen;
+	background-color:#FFCC00;
 	font-size:15px;
+	font-family: hitchFontSubtitles;
 	margin-top:150px;
-	border:solid;
+	border:dashed;
 	border-radius:25%;
 	padding-top:20px;
 	padding-bottom:20px;
