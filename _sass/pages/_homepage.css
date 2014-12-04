@@ -13,7 +13,7 @@
 
 header {
   height: 42px;
-  z-index: -1;
+  z-index: 0;
   position: fixed;
   width: 100%;
   background-color: #5cd686; }
@@ -22,36 +22,41 @@ header {
     margin-left: 15px;
     margin-top: 0px;
     height: 40px; }
-    header .nav-bar ul.pull-left.col-md-4 {
-      height: 60px; }
-      header .nav-bar ul.pull-left.col-md-4 li {
-        font-size: 30px; }
+    header .nav-bar ul.pull-left.col-md-4 li {
+      font-size: 20px; }
     header .nav-bar li {
       font-family: hitchFontSubtitles;
-      font-size: 10px;
+      font-size: 15px;
       display: inline;
       padding: 5px; }
 
 body {
   height: 2000px; }
   body .jumbotron {
-    z-index: 0;
+    z-index: 1;
     top: auto;
     bottom: auto;
     position: absolute;
     min-height: 100%;
     background-image: url("../../images/Brads.JPG"); }
+    body .jumbotron .hatchs {
+      background-image: url("../../images/Hitch01.png");
+      background-repeat: no-repeat;
+      height: 100px;
+      margin-left: 50px;
+      z-index: 2;
+      box-shadow: 10px 10px 5px black; }
     body .jumbotron h1 {
-      margin-left: 70px;
-      margin-top: 80px;
+      margin-left: 10px;
+      margin-top: 5px;
       font-family: hitchFontTitles;
-      color: #5cd686; }
+      color: black; }
   body .hitcher {
     width: 180px;
     background-color: #FFCC00;
     font-size: 15px;
     font-family: hitchFontSubtitles;
-    margin-top: 150px;
+    margin-top: 180px;
     margin-left: 220px;
     border: dashed;
     border-radius: 25%;
@@ -60,12 +65,25 @@ body {
     padding-right: 20px;
     padding-left: 40px;
     box-shadow: 10px 10px 5px black; }
+  body .hitcher2 {
+    width: 180px;
+    background-color: #FFCC00;
+    font-size: 15px;
+    font-family: hitchFontSubtitles;
+    margin-top: 180px;
+    margin-left: 220px;
+    border: dashed;
+    border-radius: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 40px; }
   body .driver {
     width: 180px;
     background-color: #FFCC00;
     font-size: 15px;
     font-family: hitchFontSubtitles;
-    margin-top: 150px;
+    margin-top: 180px;
     border: dashed;
     border-radius: 25%;
     padding-top: 20px;
