@@ -15,7 +15,7 @@ $hitchGrey: #5b5757;
     src: url(/fonts/WalkwaySemiBold.ttf);
 }
 
-//all pages
+//styling across all pages
 
 .container-fluid {
 	padding-left: 0px;
@@ -23,16 +23,16 @@ $hitchGrey: #5b5757;
 }
 
 .largepagebreak {
-	height: 7.5em;
+	height: 6.5em;
 }
 
 
 .col-md-12.pages {
-
+	padding: 0;
 	h1 { 
 		text-align: center;
 		font-family: hitchFontBody;
-		font-size: 3em;
+		font-size: 3.5em;
 		color: $hitchGrey;
 		margin-top: 1em;
 		margin-bottom: 1em;
@@ -60,7 +60,7 @@ $hitchGrey: #5b5757;
 }
 
 
-//even numbered pages only which have green background
+//even numbered pages which have green background
 
 .col-md-12.pages.even {
 	background-color: $hitchGreen;
@@ -83,7 +83,7 @@ $hitchGrey: #5b5757;
 }
 
 
-//page 2
+//page 2 styling
 .passengers {
 	float: left;
 	padding-left: 1em;
@@ -94,99 +94,7 @@ $hitchGrey: #5b5757;
 	padding-right: 1em;
 }
 
-
-//page 3
-
-.userdesc {
-	p {
-		padding-top: 2em;
-	}
-
-}
-
-.userpic {
-	float: left;
-	background-color: $hitchGreen;
-	border-radius: 80%;
-	width: 9em;
-	height: 9em;
-}
-
-
-//page 4
-
-.offerpic {
-	float: left;
-	background-color: white;
-	width: 17em;
-	height: 7em;
-	margin-bottom: 1.5em;
-	margin-left: 7em;
-}
-
-//page 6
-
-.tree {
-	height: 40em;
-	width: 40em;
-	margin-top: -3em;
-	margin-left: 4em;
-}
-
-.col-md-5.carshare {
-	margin-top: 5em;
-	margin-left: 1em;
-}
-
-
-//page 7
-
-#page7 {
-	text-align: center;
-	margin-bottom: 2em; 
-	width: 21em;
-	margin-left: auto;
-	margin-right: auto;
-}	
-
-
-//footer
-
-.footer-wrapper {
-  height: 7em;
-  background-color: $hitchGrey;
-  padding-top: 1em;
-  border-top: grey 1px solid;
-}
-
-.footer-heading{
-  padding-left: 1em;
-  padding-top: 0px;
-  font-family: hitchFontBody;
-  color: white;
-  display: inline;
-}
-
-.footerimg {
-	img {
-		height: 3em;
-		width: 3em; 
-		display: inline;
-	}
-	p { 
-		display: inline;
-		font-family: hitchFontBody;
-		font-size: 1em;
-		color: white;
-	}
-}
-
-.signup {
-	float: right;
-	margin-right: 4em;
-}
-
-//numbered lists
+//page 2 numbered list
 
 //number list column
 ol.numbers {
@@ -232,6 +140,68 @@ ol.numbers > li:before {
     counter-increment: li-counter;
 }
 
+//page 3 styling
+
+.userdesc {
+	p {
+		padding-top: 2em;
+	}
+
+}
+
+.userpic {
+	float: left;
+	background-color: $hitchGreen;
+	border-radius: 80%;
+	width: 9em;
+	height: 9em;
+}
+
+.col-md-8.page3 {
+	h2 {
+		padding: 0px;
+	}
+}
+
+//page 4
+
+.offerpic {
+	float: left;
+	background-color: white;
+	width: 17em;
+	height: 7em;
+	margin-bottom: 1.5em;
+	margin-left: 7em;
+}
+
+//page 5
+
+.tree {
+	height: 40em;
+	width: 40em;
+	margin-left: 4em;
+
+}
+
+.col-md-6.carshare {
+
+	h2 {
+	padding: 1em;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+
+	}
+	margin-top: 5em;
+	margin-left: 1em;
+}
+
+.carsharelist {
+	padding-top: 2em;
+	padding-bottom: 1em;
+	margin-top: -3em;
+	}
+
 //numbered lists for carshare
 
 //number list column
@@ -251,11 +221,11 @@ ol.carshare > li{
     position: relative;
     margin-bottom: 20px;
     padding-left: 0.5em;
-    min-height: 3em;
+    min-height: 4em;
     border-left: 2px solid #CCCCCC;
     list-style: none;
      font-family: hitchFontBody;
-	color: $hitchGreen;
+	color: white;
 	font-size: 1.2em;
 }
 
@@ -269,8 +239,107 @@ ol.carshare > li:before {
     line-height: 1;
     font-weight: bold;
     text-align: right;
-    color: #464646;
+    color: white;
  
     content: counter(li-counter);
     counter-increment: li-counter;
 }
+
+.col-md-6.page5main {
+	h1 {
+		color: white;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	h2 {
+		margin-top: 3em;
+	}
+	background-color: $hitchGrey;
+	height: 48em;
+}
+
+
+//page 6
+
+#page6 {
+	//text-align: center;
+	//margin-bottom: 2em; 
+	//width: 21em;
+	//margin-left: auto;
+	//margin-right: auto;
+	text-align: center;
+	margin-bottom: 2em;
+	width: 15em;
+	margin-left: 1em;
+	color: grey;
+}	
+
+.ambassador {
+	width: 30em;
+	height: 20em;
+	border-radius: 10%;
+	margin-top: -2em;
+	margin-left: 3em;
+	margin-bottom: 0px;
+}
+.col-md-12.pages.even.page6 {
+	h1 {
+		color: #9BD3AF;
+		width: 15em;
+		margin-left: 0.5em;
+	}
+	background-image: url("/images/IMG_3709.JPG");
+	background-size: 100%;
+}
+
+.col-md-6.page6 {
+	ul {
+		font-family: hitchFontBody;
+		list-style: none;
+	}
+	li {
+		padding: 1em;
+	}
+	margin-left: 38em;
+	margin-top: 2em;
+}
+
+
+//footer
+
+.footer-wrapper {
+  height: 7em;
+  background-color: $hitchGrey;
+  padding-top: 1em;
+  border-top: grey 1px solid;
+}
+
+.footer-heading{
+  padding-left: 1em;
+  padding-top: 0px;
+  font-family: hitchFontBody;
+  color: white;
+  display: inline;
+}
+
+.footerimg {
+	img {
+		height: 3em;
+		width: 3em; 
+		display: inline;
+	}
+	p { 
+		display: inline;
+		font-family: hitchFontBody;
+		font-size: 1em;
+		color: white;
+	}
+}
+
+.signup {
+	float: right;
+	margin-right: 4em;
+}
+
+
+
