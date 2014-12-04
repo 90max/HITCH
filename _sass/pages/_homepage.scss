@@ -57,7 +57,7 @@ header{
 		}	
 
 body{
-	height:100%;
+	height:auto;
 	.jumbotron{
 		z-index: 1;
 		top:auto;
@@ -69,10 +69,11 @@ body{
 
 				background-image:url('../../images/Hitch01.png');
 				background-repeat: no-repeat;
+				opacity: 0.75;
 				height:100px;
 				margin-left: 50px;
 				z-index: 2;
-				box-shadow: 10px 10px 5px black;
+				/*box-shadow: 10px 10px 10px black;*/
 
 			}
 
@@ -80,7 +81,8 @@ body{
 				margin-left: 10px;
 				margin-top: 5px;
 				font-family: hitchFontTitles;
-				color: black;
+				color: red;
+				opacity: 1;
 			}
 	}
 
@@ -100,22 +102,6 @@ body{
 	box-shadow: 10px 10px 5px black;
 	}
 
-	.hitcher2{
-	width:180px;
-	background-color:$hitchGreen;
-	font-size:15px;
-	font-family: hitchFontSubtitles;
-	margin-top:180px;
-	margin-left: 220px;
-	border:dashed;
-	border-radius:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-right:20px;
-	padding-left:40px;
-	
-	}
-
 	.driver{
 	width:180px;
 	background-color:$hitchGreen;
@@ -130,6 +116,34 @@ body{
 	padding-left:40px;
 	box-shadow: 10px 10px 5px black;
 	}
+
+	}
+
+/*divs react*/
+
+.hitcher, .hitcher:hover {
+	cursor:pointer;
+	box-shadow: 5px 5px 5px black;
+	border:solid;
+
+	h2 {
+		cursor:pointer;
+	}
+}
+	
+.driver, .driver:hover {
+	cursor:pointer;
+	box-shadow: 5px 5px 5px black;
+	border: solid;
+
+	h2 {
+		cursor:pointer;
+	}
 }
 
+
+.nav-bar, .nav-bar:hover {
+	cursor:pointer;
+
+}
 

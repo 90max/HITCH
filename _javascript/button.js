@@ -1,5 +1,5 @@
-$(document).ready(function(){
-	$("div.col-md-4.hitcher").hover(function(){
-		$(this).toggleClass("hitcher2")
-	});
-});
+//$(document).ready(function(){
+//	$("div.hitcher").mouseover(function(){
+//		$(this).toggleClass("hitcher hitcher2")
+//	});
+//});
