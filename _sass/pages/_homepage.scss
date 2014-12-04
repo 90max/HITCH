@@ -1,4 +1,5 @@
-$hitchgreen:#5cd686;
+$hitchGreen: #9BD3AF;
+$hitchGrey: #5b5757;
 
 @font-face {
     font-family: hitchFontTitles;
@@ -23,10 +24,10 @@ $hitchgreen:#5cd686;
 
 header{
 	height:42px;
-	z-index: 0;
-	position:fixed;
+	z-index: 1;
+	/*position:fixed;*/
 	width:100%;
-	background-color:$hitchgreen;
+	background-color:$hitchGreen;
 	
 	
 	.nav-bar {
@@ -55,10 +56,8 @@ header{
 			}
 		}	
 
-
-
 body{
-	height:2000px;
+	height:100%;
 	.jumbotron{
 		z-index: 1;
 		top:auto;
@@ -67,6 +66,7 @@ body{
 		min-height:100%;
 		background-image:url('../../images/Brads.JPG');
 			.hatchs{
+
 				background-image:url('../../images/Hitch01.png');
 				background-repeat: no-repeat;
 				height:100px;
@@ -86,7 +86,7 @@ body{
 
 	.hitcher{
 	width:180px;
-	background-color:#FFCC00;
+	background-color:$hitchGreen;
 	font-size:15px;
 	font-family: hitchFontSubtitles;
 	margin-top:180px;
@@ -102,7 +102,7 @@ body{
 
 	.hitcher2{
 	width:180px;
-	background-color:#FFCC00;
+	background-color:$hitchGreen;
 	font-size:15px;
 	font-family: hitchFontSubtitles;
 	margin-top:180px;
@@ -118,7 +118,7 @@ body{
 
 	.driver{
 	width:180px;
-	background-color:#FFCC00;
+	background-color:$hitchGreen;
 	font-size:15px;
 	font-family: hitchFontSubtitles;
 	margin-top:180px;
