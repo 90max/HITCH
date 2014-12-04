@@ -15,17 +15,36 @@ $hitchGrey: #5b5757;
     font-family: hitchFontBody;
     src: url(/fonts/WalkwaySemiBold.ttf);
 }
-
-.container-fluid{
-	padding-left:0px;
-	padding-right:0px;
-}
-
-
+	
 header{
+	
+	/*z-index: 1;
+	position:fixed;
+	width:100%;
+	background-color:$hitchGreen;*/
+	
+	}
+	.nav-bar {
+		height:42px;
+		/*padding-top:5px;
+		margin-left:15px;
+		margin-top:0px;
+		height:42px;*/ 
+	}
+
+			/*li {
+			font-family: hitchFontSubtitles;
+			font-size:15px;
+			display:inline;
+			padding: 5px;
+				}*/
+			
+		
+
+/*headeredit{
 	height:42px;
 	z-index: 1;
-	/*position:fixed;*/
+	position:fixed;
 	width:100%;
 	background-color:$hitchGreen;
 	
@@ -36,25 +55,14 @@ header{
 		margin-top:0px;
 		height:40px;
 
-		ul.pull-left.col-md-4{
-			
-			li {
-				font-size: 20px;	
-			}
-		}
-
-
 			li {
 			font-family: hitchFontSubtitles;
 			font-size:15px;
 			display:inline;
 			padding: 5px;
-
-
-
 				}
 			}
-		}	
+		}*/
 
 body{
 	height:auto;
