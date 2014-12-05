@@ -86,12 +86,12 @@ $hitchGrey: #5b5757;
 //page 2 styling
 .passengers {
 	float: left;
-	padding-left: 1em;
+	padding-left: 5em;
 }
 
 .drivers {
 	float: right;
-	padding-right: 1em;
+	padding-right: 5em;
 }
 
 //page 2 numbered list
@@ -140,6 +140,10 @@ ol.numbers > li:before {
     counter-increment: li-counter;
 }
 
+li:hover::before {
+	font-size: bold;
+}
+
 //page 3 styling
 
 .userdesc {
@@ -163,6 +167,11 @@ ol.numbers > li:before {
 	}
 }
 
+.row.pages {
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
 //page 4
 
 .offerpic {
@@ -171,15 +180,19 @@ ol.numbers > li:before {
 	width: 17em;
 	height: 7em;
 	margin-bottom: 1.5em;
-	margin-left: 7em;
+	margin-left: 2em;
 }
 
 //page 5
 
+.container-fluid.environ {
+	background-color: $hitchGrey;
+}
 .tree {
-	height: 40em;
-	width: 40em;
-	margin-left: 4em;
+	height: 30em;
+	width: 30em;
+	margin-left: 7em;
+	margin-top: 9em;
 
 }
 
@@ -200,6 +213,7 @@ ol.numbers > li:before {
 	padding-top: 2em;
 	padding-bottom: 1em;
 	margin-top: -3em;
+	margin-left: 5em;
 	}
 
 //numbered lists for carshare
@@ -250,9 +264,13 @@ ol.carshare > li:before {
 		color: white;
 		margin-top: 1em;
 		margin-bottom: 2em;
+		margin-left: 2em;
+		margin-top: 1em;
+		width: 12em;
 	}
 	h2 {
-		margin-top: 3em;
+		width: 21em;
+		margin-left: 5em;
 	}
 	background-color: $hitchGrey;
 	height: 48em;
@@ -269,8 +287,9 @@ ol.carshare > li:before {
 	//margin-right: auto;
 	text-align: center;
 	margin-bottom: 2em;
-	width: 15em;
-	margin-left: 1em;
+	width: 21em;
+	margin-left: auto;
+	margin-right: auto;
 	color: grey;
 }	
 
@@ -285,25 +304,28 @@ ol.carshare > li:before {
 .col-md-12.pages.even.page6 {
 	h1 {
 		color: #9BD3AF;
-		width: 15em;
-		margin-left: 0.5em;
+		width: 16em;
+		margin-left: 5em;
 	}
-	background-image: url("/images/IMG_3709.JPG");
+	background-image: url("/images/IMG_3338.JPG");
 	background-size: 100%;
 }
 
-.col-md-6.page6 {
-	ul {
-		font-family: hitchFontBody;
-		list-style: none;
-	}
-	li {
-		padding: 1em;
-	}
-	margin-left: 38em;
-	margin-top: 2em;
+#amb {
+	color: #5b5757;
+	font-size: 1.3em;
+	background-color: #9BD3AF;
+	width: 11em;
+	height: 11em;
+	opacity: 0.8;
+	float: left;
+	padding-top: 1.5em;
+	margin-right: 7em;
 }
 
+.amb {
+	margin-left: 13em;
+}
 
 //footer
 
