@@ -145,8 +145,9 @@ ol.numbers > li:before {
     counter-increment: li-counter;
 }
 
-li:hover::before {
-	font-size: bold;
+ol.numbers > li:hover::before {
+	font-weight: bold;
+	color: $hitchGreen;
 }
 
 //page 3 styling
@@ -264,6 +265,10 @@ ol.carshare > li:before {
     counter-increment: li-counter;
 }
 
+ol.carshare > li:hover::before {
+	color: $hitchGreen;
+}
+
 .col-md-6.page5main {
 	h1 {
 		color: white;
@@ -325,6 +330,9 @@ ol.carshare > li:before {
 	text-align: center;
 }
 
+#amb:hover {
+	opacity: 0.9;
+}
 .amb {
 	margin-left: 13em;
 	width: 77em;

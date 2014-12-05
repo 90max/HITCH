@@ -96,8 +96,9 @@ ol.numbers > li:before {
   content: counter(li-counter);
   counter-increment: li-counter; }
 
-li:hover::before {
-  font-size: bold; }
+ol.numbers > li:hover::before {
+  font-weight: bold;
+  color: #9BD3AF; }
 
 .userdesc p {
   padding-top: 2em; }
@@ -180,6 +181,9 @@ ol.carshare > li:before {
   content: counter(li-counter);
   counter-increment: li-counter; }
 
+ol.carshare > li:hover::before {
+  color: #9BD3AF; }
+
 .col-md-6.page5main {
   background-color: #5b5757;
   height: 48em; }
@@ -229,6 +233,9 @@ ol.carshare > li:before {
   padding-top: 1.5em;
   margin-right: 8em;
   text-align: center; }
+
+#amb:hover {
+  opacity: 0.9; }
 
 .amb {
   margin-left: 13em;
