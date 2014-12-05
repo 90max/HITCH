@@ -8,8 +8,8 @@
   font-family: hitchFontBody;
   src: url(/fonts/WalkwaySemiBold.ttf); }
 .nav-bar {
-  height: 55px;
-  padding-top: 10px;
+  height: 4em;
+  padding-top: 1em;
   background-color: black;
   position: fixed;
   z-index: 1;
@@ -21,14 +21,14 @@
   transition: all 1s; }
   .nav-bar ul h2 {
     color: #9BD3AF;
-    margin-top: 0px; }
+    margin-top: 0em; }
     .nav-bar ul h2 a {
       text-decoration: none;
       color: #9BD3AF; }
   .nav-bar ul li {
     display: inline;
     font-family: hitchFontSubtitles;
-    font-size: 15px;
+    font-size: 1.25em;
     font-weight: bold;
     color: #9BD3AF; }
     .nav-bar ul li a {
@@ -40,13 +40,13 @@
   padding-top: 8px;
   height: 30px; }
   .nav-bar-edit ul h2 {
-    font-size: 20px; }
+    font-size: 1.5em; }
 
 body {
   height: auto;
   /* BUTTON STYLES */ }
   body .jumbotron {
-    height: 612px;
+    height: 45em;
     z-index: 0;
     margin-top: auto;
     margin-bottom: auto;
@@ -66,57 +66,57 @@ body {
     
     			}*/ }
     body .jumbotron h1 {
-      height: 150px;
-      margin-left: 10px;
-      margin-top: 25px;
+      height: 3em;
+      margin-left: 1em;
+      margin-top: 0.5em;
       font-family: hitchFontTitles;
       color: #9BD3AF;
       opacity: 1; }
   body .hitcher {
-    width: 180px;
+    width: 12em;
     background-color: #5b5757;
-    font-size: 15px;
     font-family: hitchFontSubtitles;
-    margin-top: 180px;
-    margin-left: 220px;
-    margin-right: 100px;
-    border: dashed;
-    border-radius: 25%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 40px;
+    margin-top: 12em;
+    margin-left: 27em;
+    margin-right: 15em;
+    border-radius: 0%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.9em;
     box-shadow: 10px 10px 5px black; }
+    body .hitcher h2 {
+      color: #9BD3AF; }
   body .driver {
-    width: 180px;
+    width: 12em;
     background-color: #5b5757;
-    font-size: 15px;
     font-family: hitchFontSubtitles;
-    margin-top: 180px;
-    border: dashed;
-    border-radius: 25%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
+    margin-top: 12em;
+    border-radius: 0%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 2.6em;
     box-shadow: 10px 10px 5px black; }
+    body .driver h2 {
+      color: #9BD3AF; }
 
 /*BUTTON REACTIONS*/
 .hitcher, .hitcher:hover {
   cursor: pointer;
   box-shadow: 5px 5px 5px black;
   background-color: #9BD3AF;
-  transition: 2s; }
+  transition: 1s; }
   .hitcher h2, .hitcher:hover h2 {
-    cursor: pointer; }
+    cursor: pointer;
+    color: #5b5757; }
 
 .driver, .driver:hover {
   cursor: pointer;
   box-shadow: 5px 5px 5px black;
   background-color: #9BD3AF;
-  transition: 2s; }
+  transition: 1s; }
   .driver h2, .driver:hover h2 {
-    cursor: pointer; }
+    cursor: pointer;
+    color: #5b5757; }
 
 .nav-bar ul li a, .nav-bar ul li a:hover {
   cursor: pointer; }
