@@ -73,14 +73,12 @@ body{
 		height:612px;
 		z-index: 0;
 		margin-top: auto;
-		padding-bottom: 0px;
-		padding-right: 150px;
-		margin-bottom: 0px;
-		/*position: absolute;*/
+		margin-bottom: auto;
 		background-image:url('../../images/blurred.JPG');
+		background-repeat: no-repeat;
 		background-size: 100%;
 		opacity: 0.85;
-			.hatchs{
+			/*.hatchs{
 
 				background-image:url('../../images/Hitch01.png');
 				background-repeat: no-repeat;
@@ -88,13 +86,14 @@ body{
 				height:100px;
 				margin-left: 50px;
 				z-index: 2;
-				/*box-shadow: 10px 10px 10px black;*/
+				box-shadow: 10px 10px 10px black;
 
-			}
+			}*/
 
 			h1{
+				height: 150px;
 				margin-left: 10px;
-				margin-top: 5px;
+				margin-top: 25px;
 				font-family: hitchFontTitles;
 				color: $hitchGreen;
 				opacity: 1;
@@ -110,6 +109,7 @@ body{
 	font-family: hitchFontSubtitles;
 	margin-top:180px;
 	margin-left: 220px;
+	margin-right: 100px;
 	border:dashed;
 	border-radius:25%;
 	padding-top:20px;
