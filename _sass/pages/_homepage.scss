@@ -44,7 +44,7 @@ $hitchHeaderFooter: #DEDECE;
 
 			li{
 				display:inline;
-				font-family: hitchFontSubtitles;
+				font-family: 'Oxygen', sans-serif;
 				font-size: 15px;
 				font-weight: bold;
 				color: $hitchGreen;
@@ -94,7 +94,7 @@ body{
 				height: 150px;
 				margin-left: 10px;
 				margin-top: 25px;
-				font-family: hitchFontTitles;
+				font-family: 'Oxygen', sans-serif;
 				color: $hitchGreen;
 				opacity: 1;
 			}
@@ -106,7 +106,7 @@ body{
 	width:180px;
 	background-color:$hitchGrey;
 	font-size:15px;
-	font-family: hitchFontSubtitles;
+	font-family: 'Oxygen', sans-serif;
 	margin-top:180px;
 	margin-left: 220px;
 	margin-right: 100px;
@@ -123,7 +123,7 @@ body{
 	width:180px;
 	background-color:$hitchGrey;
 	font-size:15px;
-	font-family: hitchFontSubtitles;
+	font-family: 'Oxygen', sans-serif;
 	margin-top:180px;
 	border:dashed;
 	border-radius:25%;
