@@ -19,8 +19,8 @@ $hitchHeaderFooter: #DEDECE;
 }
 
 .nav-bar {
-	height:55px;
-	padding-top: 10px;
+	height:4em;
+	padding-top: 1em;
 	background-color: black;
 	position: fixed;
 	z-index: 1;
@@ -34,7 +34,7 @@ $hitchHeaderFooter: #DEDECE;
 		ul{
 			h2{
 				color: $hitchGreen;
-				margin-top: 0px;
+				margin-top: 0em;
 					a{
 						text-decoration: none;
 						color: $hitchGreen;
@@ -45,7 +45,7 @@ $hitchHeaderFooter: #DEDECE;
 			li{
 				display:inline;
 				font-family: 'Oxygen', sans-serif;
-				font-size: 15px;
+				font-size: 1.25em;
 				font-weight: bold;
 				color: $hitchGreen;
 					a{
@@ -62,7 +62,7 @@ $hitchHeaderFooter: #DEDECE;
 	height:30px;
 		ul{
 			h2{
-				font-size: 20px;
+				font-size: 1.5em;
 			}
 		}
 }
@@ -70,7 +70,7 @@ $hitchHeaderFooter: #DEDECE;
 body{
 	height:auto;
 	.jumbotron{
-		height:612px;
+		height:45em;
 		z-index: 0;
 		margin-top: auto;
 		margin-bottom: auto;
@@ -91,10 +91,13 @@ body{
 			}*/
 
 			h1{
-				height: 150px;
-				margin-left: 10px;
-				margin-top: 25px;
+
+
 				font-family: 'Oxygen', sans-serif;
+				height: 3em;
+				margin-left: 1em;
+				margin-top: 0.5em;
+	
 				color: $hitchGreen;
 				opacity: 1;
 			}
@@ -103,35 +106,36 @@ body{
 /* BUTTON STYLES */
 
 	.hitcher{
-	width:180px;
-	background-color:$hitchGrey;
-	font-size:15px;
-	font-family: 'Oxygen', sans-serif;
-	margin-top:180px;
-	margin-left: 220px;
-	margin-right: 100px;
-	border:dashed;
-	border-radius:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-right:20px;
-	padding-left:40px;
-	box-shadow: 10px 10px 5px black;
+
+		width:12em;
+		background-color:$hitchGrey;
+		font-family: hitchFontSubtitles;
+		margin-top:12em;
+		margin-left: 27em;
+		margin-right: 15em;
+		border-radius:0%;
+		padding-top:1.5em;
+		padding-bottom:1.5em;
+		padding-left:1.9em;
+		box-shadow: 10px 10px 5px black;
+			h2{
+				color:$hitchGreen;
+			}
 	}
 
 	.driver{
-	width:180px;
-	background-color:$hitchGrey;
-	font-size:15px;
-	font-family: 'Oxygen', sans-serif;
-	margin-top:180px;
-	border:dashed;
-	border-radius:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-right:40px;
-	padding-left:40px;
-	box-shadow: 10px 10px 5px black;
+		width:12em;
+		background-color:$hitchGrey;
+		font-family: hitchFontSubtitles;
+		margin-top:12em;
+		border-radius:0%;
+		padding-top:1.5em;
+		padding-bottom:1.5em;
+		padding-left: 2.6em;
+		box-shadow: 10px 10px 5px black;
+			h2{
+				color:$hitchGreen;
+			}
 	}
 
 	}
@@ -142,10 +146,11 @@ body{
 	cursor:pointer;
 	box-shadow: 5px 5px 5px black;
 	background-color: $hitchGreen;
-	transition:2s;
+	transition:1s;
 
 	h2 {
 		cursor:pointer;
+		color: $hitchGrey;
 	}
 }
 	
@@ -153,10 +158,11 @@ body{
 	cursor:pointer;
 	box-shadow: 5px 5px 5px black;
 	background-color: $hitchGreen;
-	transition:2s;
+	transition:1s;
 
 	h2 {
 		cursor:pointer;
+		color:$hitchGrey;
 	}
 }
 
@@ -166,4 +172,3 @@ body{
 
 
 }
-
