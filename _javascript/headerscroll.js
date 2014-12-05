@@ -1,7 +1,7 @@
 $(window).scroll(function() {
-    if ($("header").offset().top > 50) {
-        $("header").addClass("headeredit");
+    if ($(".nav-bar").offset().top > 50) {
+        $(".nav-bar").addClass("nav-bar-edit");
     } else {
-        $("header").removeClass("headeredit");
+        $(".nav-bar").removeClass("nav-bar-edit");
     }
 });

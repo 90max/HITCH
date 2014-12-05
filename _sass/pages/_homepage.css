@@ -8,65 +8,52 @@
   font-family: hitchFontBody;
   src: url(/fonts/WalkwaySemiBold.ttf); }
 .nav-bar {
-  height: 50px;
-  padding-top: 8px;
-  background-color: #9BD3AF;
+  height: 55px;
+  padding-top: 10px;
+  background-color: black;
   position: fixed;
   z-index: 1;
   width: 100%;
-  /*padding-top:5px;
-  margin-left:15px;
-  margin-top:0px;
-  height:42px;*/ }
-  .nav-bar li {
+  /*F&C*/
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+  .nav-bar ul h2 {
+    color: #9BD3AF;
+    margin-top: 0px; }
+  .nav-bar ul li {
     display: inline;
     font-family: hitchFontSubtitles;
-    font-size: 15px; }
-  .nav-bar .pull-left
-  li {
-    font-size: 25px; }
+    font-size: 15px;
+    font-weight: bold;
+    color: #9BD3AF; }
+    .nav-bar ul li a {
+      text-decoration: none;
+      color: #9BD3AF; }
 
-/*li {
-font-family: hitchFontSubtitles;
-font-size:15px;
-display:inline;
-padding: 5px;
-	}*/
-/*headeredit{
-	height:42px;
-	z-index: 1;
-	position:fixed;
-	width:100%;
-	background-color:$hitchGreen;
-	
-	
-	.nav-bar {
-		padding-top:5px;
-		margin-left:15px;
-		margin-top:0px;
-		height:40px;
+.nav-bar-edit {
+  background-color: #5b5757;
+  padding-top: 8px;
+  height: 30px; }
+  .nav-bar-edit ul h2 {
+    font-size: 20px; }
 
-			li {
-			font-family: hitchFontSubtitles;
-			font-size:15px;
-			display:inline;
-			padding: 5px;
-				}
-			}
-		}*/
 body {
-  height: auto; }
+  height: auto;
+  /* BUTTON STYLES */ }
   body .jumbotron {
     z-index: 0;
     margin-top: 50px;
     bottom: auto;
     position: absolute;
     min-height: 100%;
-    background-image: url("../../images/Brads.JPG"); }
+    background-image: url("../../images/Brads.JPG");
+    opacity: 0.85; }
     body .jumbotron .hatchs {
       background-image: url("../../images/Hitch01.png");
       background-repeat: no-repeat;
-      opacity: 0.75;
+      opacity: 0.8;
       height: 100px;
       margin-left: 50px;
       z-index: 2;
@@ -75,11 +62,11 @@ body {
       margin-left: 10px;
       margin-top: 5px;
       font-family: hitchFontTitles;
-      color: red;
+      color: #5b5757;
       opacity: 1; }
   body .hitcher {
     width: 180px;
-    background-color: #9BD3AF;
+    background-color: #5b5757;
     font-size: 15px;
     font-family: hitchFontSubtitles;
     margin-top: 180px;
@@ -93,7 +80,7 @@ body {
     box-shadow: 10px 10px 5px black; }
   body .driver {
     width: 180px;
-    background-color: #9BD3AF;
+    background-color: #5b5757;
     font-size: 15px;
     font-family: hitchFontSubtitles;
     margin-top: 180px;
@@ -105,22 +92,22 @@ body {
     padding-left: 40px;
     box-shadow: 10px 10px 5px black; }
 
-/*divs react*/
+/*BUTTON REACTIONS*/
 .hitcher, .hitcher:hover {
   cursor: pointer;
   box-shadow: 5px 5px 5px black;
-  border: solid; }
+  background-color: #9BD3AF; }
   .hitcher h2, .hitcher:hover h2 {
     cursor: pointer; }
 
 .driver, .driver:hover {
   cursor: pointer;
   box-shadow: 5px 5px 5px black;
-  border: solid; }
+  background-color: #9BD3AF; }
   .driver h2, .driver:hover h2 {
     cursor: pointer; }
 
-.nav-bar, .nav-bar:hover {
+.nav-bar ul li a, .nav-bar ul li a:hover {
   cursor: pointer; }
 
 /*# sourceMappingURL=_homepage.css.map */
