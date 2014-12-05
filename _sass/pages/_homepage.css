@@ -22,6 +22,9 @@
   .nav-bar ul h2 {
     color: #9BD3AF;
     margin-top: 0px; }
+    .nav-bar ul h2 a {
+      text-decoration: none;
+      color: #9BD3AF; }
   .nav-bar ul li {
     display: inline;
     font-family: hitchFontSubtitles;
@@ -97,14 +100,16 @@ body {
 .hitcher, .hitcher:hover {
   cursor: pointer;
   box-shadow: 5px 5px 5px black;
-  background-color: #9BD3AF; }
+  background-color: #9BD3AF;
+  transition: 2s; }
   .hitcher h2, .hitcher:hover h2 {
     cursor: pointer; }
 
 .driver, .driver:hover {
   cursor: pointer;
   box-shadow: 5px 5px 5px black;
-  background-color: #9BD3AF; }
+  background-color: #9BD3AF;
+  transition: 2s; }
   .driver h2, .driver:hover h2 {
     cursor: pointer; }
 

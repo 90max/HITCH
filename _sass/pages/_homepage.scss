@@ -35,6 +35,10 @@ $hitchHeaderFooter: #DEDECE;
 			h2{
 				color: $hitchGreen;
 				margin-top: 0px;
+					a{
+						text-decoration: none;
+						color: $hitchGreen;
+					}
 
 			}
 
@@ -136,6 +140,7 @@ body{
 	cursor:pointer;
 	box-shadow: 5px 5px 5px black;
 	background-color: $hitchGreen;
+	transition:2s;
 
 	h2 {
 		cursor:pointer;
@@ -146,6 +151,7 @@ body{
 	cursor:pointer;
 	box-shadow: 5px 5px 5px black;
 	background-color: $hitchGreen;
+	transition:2s;
 
 	h2 {
 		cursor:pointer;
@@ -155,6 +161,7 @@ body{
 
 .nav-bar ul li a, .nav-bar ul li a:hover {
 	cursor:pointer;
+
 
 }
 
