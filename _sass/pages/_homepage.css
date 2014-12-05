@@ -27,7 +27,7 @@
       color: #9BD3AF; }
   .nav-bar ul li {
     display: inline;
-    font-family: hitchFontSubtitles;
+    font-family: 'Oxygen', sans-serif;
     font-size: 1.25em;
     font-weight: bold;
     color: #9BD3AF; }
@@ -66,10 +66,10 @@ body {
     
     			}*/ }
     body .jumbotron h1 {
+      font-family: 'Oxygen', sans-serif;
       height: 3em;
       margin-left: 1em;
       margin-top: 0.5em;
-      font-family: hitchFontTitles;
       color: #9BD3AF;
       opacity: 1; }
   body .hitcher {
