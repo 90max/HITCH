@@ -50,9 +50,11 @@ body {
     z-index: 0;
     margin-top: auto;
     padding-bottom: 0px;
+    padding-right: 150px;
     margin-bottom: 0px;
     /*position: absolute;*/
-    background-image: url("../../images/road.JPG");
+    background-image: url("../../images/blurred.JPG");
+    background-size: 100%;
     opacity: 0.85; }
     body .jumbotron .hatchs {
       background-image: url("../../images/Hitch01.png");
@@ -66,7 +68,7 @@ body {
       margin-left: 10px;
       margin-top: 5px;
       font-family: hitchFontTitles;
-      color: #5b5757;
+      color: #9BD3AF;
       opacity: 1; }
   body .hitcher {
     width: 180px;

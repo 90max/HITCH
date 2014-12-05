@@ -74,9 +74,11 @@ body{
 		z-index: 0;
 		margin-top: auto;
 		padding-bottom: 0px;
+		padding-right: 150px;
 		margin-bottom: 0px;
 		/*position: absolute;*/
-		background-image:url('../../images/road.JPG');
+		background-image:url('../../images/blurred.JPG');
+		background-size: 100%;
 		opacity: 0.85;
 			.hatchs{
 
@@ -94,7 +96,7 @@ body{
 				margin-left: 10px;
 				margin-top: 5px;
 				font-family: hitchFontTitles;
-				color: $hitchGrey;
+				color: $hitchGreen;
 				opacity: 1;
 			}
 	}

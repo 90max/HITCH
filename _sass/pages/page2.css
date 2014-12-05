@@ -225,12 +225,41 @@ ol.carshare > li:before {
   display: inline; }
 .footerimg p {
   display: inline;
-  font-family: hitchFontBody;
+  font-family: Helvetica;
   font-size: 1em;
-  color: white; }
+  color: #5b5757; }
 
 .signup {
   float: right;
   margin-right: 4em; }
+
+.btn {
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #9BD3AF;
+  background-image: -webkit-linear-gradient(top, #9BD3AF, #9BD3AF);
+  background-image: -moz-linear-gradient(top, #9BD3AF, #9BD3AF);
+  background-image: -ms-linear-gradient(top, #9BD3AF, #9BD3AF);
+  background-image: -o-linear-gradient(top, #9BD3AF, #9BD3AF);
+  background-image: linear-gradient(to bottom, #9BD3AF, #9BD3AF);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Helvetica;
+  color: #5b5757;
+  font-size: 27px;
+  padding: 6px 20px 6px 20px;
+  border: solid #5b5757 2px;
+  text-decoration: none; }
+
+.btn:hover {
+  margin-right: 5px;
+  margin-left: 5px;
+  background: #9BD3AF;
+  background-image: -webkit-linear-gradient(top, #9BD3AF, #9BD3AF);
+  background-image: -moz-linear-gradient(top, #9BD3AF, #9BD3AF);
+  background-image: -ms-linear-gradient(top, #9BD3AF, #9BD3AF);
+  background-image: -o-linear-gradient(top, #9BD3AF, #9BD3AF);
+  background-image: linear-gradient(to bottom, #9BD3AF, #9BD3AF); }
 
 /*# sourceMappingURL=page2.css.map */
