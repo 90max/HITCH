@@ -20,22 +20,23 @@ $hitchGrey: #5b5757;
 .container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
-	height: 100vh;
+
 }
 
 .largepagebreak {
-	height: 6.5em;
+	height: 2.5em;
 }
 
 
 .col-md-12.pages {
 	padding: 0;
+	height: 100vh;
 	h1 { 
 		text-align: center;
 		font-family:'Oxygen', sans-serif;
 		font-size: 3.5em;
 		color: $hitchGrey;
-		margin-top: 1em;
+		margin-top: 2.5em;
 		margin-bottom: 1em;
 		}
 	h2 {	
@@ -65,7 +66,8 @@ $hitchGrey: #5b5757;
 
 .col-md-12.pages.even {
 	background-color: $hitchGreen;
-	padding-bottom: 5em;
+	padding-bottom: 3em;
+	height: 100vh;
 	h2 {
 		color: white;
 	}
@@ -273,10 +275,10 @@ ol.carshare > li:hover::before {
 .col-md-6.page5main {
 	h1 {
 		color: white;
-		margin-top: 1em;
+
 		margin-bottom: 2em;
 		margin-left: 2em;
-		margin-top: 1em;
+		margin-top: 2.5em;
 		width: 12em;
 	}
 	h2 {
@@ -349,12 +351,14 @@ ol.carshare > li:hover::before {
 }
 
 .footer-heading{
-  padding-left: 1em;
+  padding-left: 2em;
   padding-top: 0px;
   font-family: 'Oxygen', sans-serif;
   color: white;
   display: inline;
   font-size: 1.4em;
+  float: left;
+
 }
 
 .footerimg {
@@ -363,6 +367,8 @@ ol.carshare > li:hover::before {
 		height: 3em;
 		width: 3em; 
 		display: inline;
+		float: left;
+		margin: 0.5em;
 	}
 	p { 
 		display: inline;
