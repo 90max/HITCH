@@ -70,7 +70,7 @@ $hitchHeaderFooter: #DEDECE;
 body{
 	height:auto;
 	.jumbotron{
-		height:45em;
+		height: 100vh;
 		z-index: 0;
 		margin-top: auto;
 		margin-bottom: auto;
@@ -90,85 +90,82 @@ body{
 
 			}*/
 
-			h1{
+			h1 {
 
 
 				font-family: 'Oxygen', sans-serif;
-				height: 3em;
-				margin-left: 1em;
-				margin-top: 0.5em;
-	
-				color: $hitchGreen;
+				height: 1em;
+				margin-left: 0em;
+				margin-top: 2.5em;
+				color: #9BD3AF;
 				opacity: 1;
 			}
 	}
+}	
 
+#homepage {
+	font-family: 'Oxygen', sans-serif;
+	height: 3em;
+	color: white;
+	margin-bottom: -1em;
+	margin-left: 0em;
+	font-size: 4em;
+
+}
 /* BUTTON STYLES */
 
-	.hitcher{
 
-		width:12em;
-		background-color:$hitchGrey;
-		font-family: hitchFontSubtitles;
-		margin-top:12em;
-		margin-left: 27em;
-		margin-right: 15em;
-		border-radius:0%;
-		padding-top:1.5em;
-		padding-bottom:1.5em;
-		padding-left:1.9em;
-		box-shadow: 10px 10px 5px black;
-			h2{
-				color:$hitchGreen;
-			}
-	}
-
-	.driver{
-		width:12em;
-		background-color:$hitchGrey;
-		font-family: hitchFontSubtitles;
-		margin-top:12em;
-		border-radius:0%;
-		padding-top:1.5em;
-		padding-bottom:1.5em;
-		padding-left: 2.6em;
-		box-shadow: 10px 10px 5px black;
-			h2{
-				color:$hitchGreen;
-			}
-	}
-
-	}
-
-/*BUTTON REACTIONS*/
-
-.hitcher, .hitcher:hover {
-	cursor:pointer;
-	box-shadow: 5px 5px 5px black;
-	background-color: $hitchGreen;
-	transition:1s;
-
-	h2 {
-		cursor:pointer;
-		color: $hitchGrey;
-	}
+body {
+    text-align: center;
 }
-	
-.driver, .driver:hover {
-	cursor:pointer;
-	box-shadow: 5px 5px 5px black;
-	background-color: $hitchGreen;
-	transition:1s;
 
-	h2 {
-		cursor:pointer;
-		color:$hitchGrey;
-	}
+#button {
+    display: inline-block;
+    margin-top: 20%;
+    border-radius: 8px;
+    box-shadow: 0 8px 0 #7fdb9d;
+    font-size: 1.8em;
+    color: #fff;
 }
+
+#button span {
+    display: inline-block;
+    padding: 0.7em 1em;
+    background-color: $hitchGreen;
+  
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(111, 142, 111, 0.8), rgba(33, 247, 33, 0.21));
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(111, 142, 111, 0.8), rgba(33, 247, 33, 0.21));
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(111, 142, 111, 0.8), rgba(33, 247, 33, 0.21));
+ 	border-radius: 8px;
+    box-shadow: inset 0 -1px 1px #7fdb9d;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+  
+}
+
+#button:hover span {
+    background-color: #7fdb9d;
+    text-shadow: 0 -1px 1px #7fdb9d, 0 0 5px #7fdb9d;
+}
+
+#button:active, #button:focus {
+    -webkit-box-shadow:    0 8px 0 #7fdb9d, 0 12px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 8px 0 #7fdb9d, 0 12px 10px rgba(0, 0, 0, .3);
+    box-shadow:    0 8px 0 #7fdb9d, 0 12px 10px rgba(0, 0, 0, .3);
+}
+
+#button:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+
+
 
 
 .nav-bar ul li a, .nav-bar ul li a:hover {
-	cursor:pointer;
-
+	cursor: pointer;
 
 }

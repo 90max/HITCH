@@ -12,16 +12,17 @@
   padding-right: 0px; }
 
 .largepagebreak {
-  height: 6.5em; }
+  height: 2.5em; }
 
 .col-md-12.pages {
-  padding: 0; }
+  padding: 0;
+  height: 100vh; }
   .col-md-12.pages h1 {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
     font-size: 3.5em;
     color: #5b5757;
-    margin-top: 1em;
+    margin-top: 2.5em;
     margin-bottom: 1em; }
   .col-md-12.pages h2 {
     font-family: 'Oxygen', sans-serif;
@@ -41,7 +42,8 @@
 
 .col-md-12.pages.even {
   background-color: #9BD3AF;
-  padding-bottom: 5em; }
+  padding-bottom: 3em;
+  height: 100vh; }
   .col-md-12.pages.even h2 {
     color: white; }
   .col-md-12.pages.even li {
@@ -189,10 +191,9 @@ ol.carshare > li:hover::before {
   height: 48em; }
   .col-md-6.page5main h1 {
     color: white;
-    margin-top: 1em;
     margin-bottom: 2em;
     margin-left: 2em;
-    margin-top: 1em;
+    margin-top: 2.5em;
     width: 12em; }
   .col-md-6.page5main h2 {
     width: 21em;
@@ -248,19 +249,22 @@ ol.carshare > li:hover::before {
   border-top: grey 1px solid; }
 
 .footer-heading {
-  padding-left: 1em;
+  padding-left: 2em;
   padding-top: 0px;
   font-family: 'Oxygen', sans-serif;
   color: white;
   display: inline;
-  font-size: 1.4em; }
+  font-size: 1.4em;
+  float: left; }
 
 .footerimg {
   margin-top: 1em; }
   .footerimg img {
     height: 3em;
     width: 3em;
-    display: inline; }
+    display: inline;
+    float: left;
+    margin: 0.5em; }
   .footerimg p {
     display: inline;
     font-family: 'Oxygen', sans-serif;
