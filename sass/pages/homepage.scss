@@ -32,13 +32,16 @@ $hitchHeaderFooter: #DEDECE;
     transition: all 1s;
 	 	
 		ul{
-			h2{
-				color: $hitchGreen;
-				margin-top: 0em;
-					a{
-						text-decoration: none;
-						color: $hitchGreen;
-					}
+			.pull-right{
+				margin-right: 2em;
+			}
+				h2{
+					color: $hitchGreen;
+					margin-top: 0em;
+						a{
+							text-decoration: none;
+							color: $hitchGreen;
+						}
 
 			}
 
@@ -58,8 +61,8 @@ $hitchHeaderFooter: #DEDECE;
 
 .nav-bar-edit{
 	background-color: $hitchGrey;
-	padding-top: 8px;
-	height:30px;
+	padding-top: 0.5em;
+	height:3em;
 		ul{
 			h2{
 				font-size: 1.5em;

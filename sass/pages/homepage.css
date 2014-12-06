@@ -19,6 +19,8 @@
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s; }
+  .nav-bar ul .pull-right {
+    margin-right: 2em; }
   .nav-bar ul h2 {
     color: #9BD3AF;
     margin-top: 0em; }
@@ -37,8 +39,8 @@
 
 .nav-bar-edit {
   background-color: #5b5757;
-  padding-top: 8px;
-  height: 30px; }
+  padding-top: 0.5em;
+  height: 3em; }
   .nav-bar-edit ul h2 {
     font-size: 1.5em; }
 
@@ -123,4 +125,4 @@ body {
 .nav-bar ul li a, .nav-bar ul li a:hover {
   cursor: pointer; }
 
-/*# sourceMappingURL=_homepage.css.map */
+/*# sourceMappingURL=homepage.css.map */
