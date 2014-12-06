@@ -168,7 +168,8 @@ ol.carshare > li {
   list-style: none;
   font-family: 'Oxygen', sans-serif;
   color: white;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  text-align: left; }
 
 ol.carshare > li:before {
   position: absolute;
