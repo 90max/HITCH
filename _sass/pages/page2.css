@@ -9,7 +9,8 @@
   src: url(/fonts/WalkwaySemiBold.ttf); }
 .container-fluid {
   padding-left: 0px;
-  padding-right: 0px; }
+  padding-right: 0px;
+  height: 100vh; }
 
 .largepagebreak {
   height: 6.5em; }
