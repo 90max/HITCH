@@ -18,6 +18,77 @@ $hitchHeaderFooter: #DEDECE;
     src: url(/fonts/WalkwaySemiBold.ttf);
 }
 
+@media screen and (max-width:959px){
+	.nav-bar{
+		width: 100%;
+	}
+	ul.pull-left{
+		width: 30%;
+	}
+	ul.pull-right{
+		width: 70%;
+	}
+	.jumbotron{
+		width: 100%;
+		height: 100%;
+	}
+	#lift-share{
+		width: 100%;
+	}
+	#homepage{
+		width: 100%;
+	}
+	.hitcher{
+		width: 50%;
+	}
+	.driver{
+		width: 50%;
+	}
+
+}
+
+
+@media screen and (max-width:640px){
+	#header{
+		height: 6em;
+	}
+	.nav-bar{
+		width: 100%;
+		height: 6em;
+	}
+	ul.pull-left{
+		width: 30%;
+	}
+	ul.pull-right{
+		width: 70%;
+	}
+	.jumbotron{
+		width: 100%;
+		height: 100%;
+	}
+	#lift-share{
+		width: 100%;
+	}
+	#homepage{
+		width: 100%;
+	}
+	.hitcher{
+		width: 100%;
+	}
+	.driver{
+		width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width:330px){
+	#content1{
+		width: 330px;
+	}
+
+}
+
 .nav-bar {
 	height:4em;
 	padding-top: 1em;
